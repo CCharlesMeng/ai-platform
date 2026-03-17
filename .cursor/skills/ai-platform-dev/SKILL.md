@@ -225,13 +225,13 @@ export interface Xxx {
 
 ```bash
 # 后端（端口 3000）
-pnpm --filter backend dev
+npm run dev --workspace=packages/backend
 
 # 门户（端口 5173）
-pnpm --filter portal dev
+npm run dev --workspace=packages/portal
 
 # 管理后台（端口 5174）
-pnpm --filter admin dev
+npm run dev --workspace=packages/admin
 ```
 
 ## 当前模块状态

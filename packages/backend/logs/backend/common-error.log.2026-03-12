@@ -1,0 +1,108 @@
+2026-03-12 11:49:36,262 ERROR 16952 [-/::1/-/11ms GET /api/banners] [ErrorHandler] EntityMetadataNotFoundError: No metadata for "BannerEntity" was found.
+    at DataSource.getMetadata (E:\Projects\ai-platform\node_modules\.pnpm\typeorm@0.3.28_mysql2@3.19._8cb7a6828a05789f2ee0097bb279a177\node_modules\src\data-source\DataSource.ts:451:30)
+    at Repository.get metadata [as metadata] (E:\Projects\ai-platform\node_modules\.pnpm\typeorm@0.3.28_mysql2@3.19._8cb7a6828a05789f2ee0097bb279a177\node_modules\src\repository\Repository.ts:54:40)
+    at Repository.find (E:\Projects\ai-platform\node_modules\.pnpm\typeorm@0.3.28_mysql2@3.19._8cb7a6828a05789f2ee0097bb279a177\node_modules\src\repository\Repository.ts:573:39)
+    at BannersService.findActive (E:\Projects\ai-platform\packages\backend\app\service\banners.ts:26:34)
+    at BannersController.index (E:\Projects\ai-platform\packages\backend\app\controller\banners.ts:10:38)
+    at Object.callFn (E:\Projects\ai-platform\node_modules\.pnpm\egg-core@5.5.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\Projects\ai-platform\node_modules\.pnpm\egg-core@5.5.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\Projects\ai-platform\node_modules\.pnpm\@eggjs+router@2.2.0\node_modules\@eggjs\router\lib\utils.js:17:21)
+    at wrappedController (E:\Projects\ai-platform\node_modules\.pnpm\@eggjs+router@2.2.0\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\Projects\ai-platform\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+2026-03-12 11:53:09,171 ERROR 16136 [-/127.0.0.1/-/5ms GET /api/banners] [ErrorHandler] EntityMetadataNotFoundError: No metadata for "BannerEntity" was found.
+    at DataSource.getMetadata (E:\Projects\ai-platform\node_modules\.pnpm\typeorm@0.3.28_mysql2@3.19._8cb7a6828a05789f2ee0097bb279a177\node_modules\src\data-source\DataSource.ts:451:30)
+    at Repository.get metadata [as metadata] (E:\Projects\ai-platform\node_modules\.pnpm\typeorm@0.3.28_mysql2@3.19._8cb7a6828a05789f2ee0097bb279a177\node_modules\src\repository\Repository.ts:54:40)
+    at Repository.find (E:\Projects\ai-platform\node_modules\.pnpm\typeorm@0.3.28_mysql2@3.19._8cb7a6828a05789f2ee0097bb279a177\node_modules\src\repository\Repository.ts:573:39)
+    at BannersService.findActive (E:\Projects\ai-platform\packages\backend\app\service\banners.ts:26:34)
+    at BannersController.index (E:\Projects\ai-platform\packages\backend\app\controller\banners.ts:10:38)
+    at Object.callFn (E:\Projects\ai-platform\node_modules\.pnpm\egg-core@5.5.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\Projects\ai-platform\node_modules\.pnpm\egg-core@5.5.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\Projects\ai-platform\node_modules\.pnpm\@eggjs+router@2.2.0\node_modules\@eggjs\router\lib\utils.js:17:21)
+    at wrappedController (E:\Projects\ai-platform\node_modules\.pnpm\@eggjs+router@2.2.0\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\Projects\ai-platform\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+2026-03-12 11:53:11,433 ERROR 16136 [-/::1/-/2ms GET /api/banners] [ErrorHandler] EntityMetadataNotFoundError: No metadata for "BannerEntity" was found.
+    at DataSource.getMetadata (E:\Projects\ai-platform\node_modules\.pnpm\typeorm@0.3.28_mysql2@3.19._8cb7a6828a05789f2ee0097bb279a177\node_modules\src\data-source\DataSource.ts:451:30)
+    at Repository.get metadata [as metadata] (E:\Projects\ai-platform\node_modules\.pnpm\typeorm@0.3.28_mysql2@3.19._8cb7a6828a05789f2ee0097bb279a177\node_modules\src\repository\Repository.ts:54:40)
+    at Repository.find (E:\Projects\ai-platform\node_modules\.pnpm\typeorm@0.3.28_mysql2@3.19._8cb7a6828a05789f2ee0097bb279a177\node_modules\src\repository\Repository.ts:573:39)
+    at BannersService.findActive (E:\Projects\ai-platform\packages\backend\app\service\banners.ts:26:34)
+    at BannersController.index (E:\Projects\ai-platform\packages\backend\app\controller\banners.ts:10:38)
+    at Object.callFn (E:\Projects\ai-platform\node_modules\.pnpm\egg-core@5.5.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\Projects\ai-platform\node_modules\.pnpm\egg-core@5.5.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\Projects\ai-platform\node_modules\.pnpm\@eggjs+router@2.2.0\node_modules\@eggjs\router\lib\utils.js:17:21)
+    at wrappedController (E:\Projects\ai-platform\node_modules\.pnpm\@eggjs+router@2.2.0\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\Projects\ai-platform\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+2026-03-12 11:54:47,131 ERROR 17344 [-/127.0.0.1/-/5ms GET /api/banners] [ErrorHandler] EntityMetadataNotFoundError: No metadata for "BannerEntity" was found.
+    at DataSource.getMetadata (E:\Projects\ai-platform\node_modules\.pnpm\typeorm@0.3.28_mysql2@3.19._8cb7a6828a05789f2ee0097bb279a177\node_modules\src\data-source\DataSource.ts:451:30)
+    at Repository.get metadata [as metadata] (E:\Projects\ai-platform\node_modules\.pnpm\typeorm@0.3.28_mysql2@3.19._8cb7a6828a05789f2ee0097bb279a177\node_modules\src\repository\Repository.ts:54:40)
+    at Repository.find (E:\Projects\ai-platform\node_modules\.pnpm\typeorm@0.3.28_mysql2@3.19._8cb7a6828a05789f2ee0097bb279a177\node_modules\src\repository\Repository.ts:573:39)
+    at BannersService.findActive (E:\Projects\ai-platform\packages\backend\app\service\banners.ts:26:34)
+    at BannersController.index (E:\Projects\ai-platform\packages\backend\app\controller\banners.ts:10:38)
+    at Object.callFn (E:\Projects\ai-platform\node_modules\.pnpm\egg-core@5.5.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\Projects\ai-platform\node_modules\.pnpm\egg-core@5.5.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\Projects\ai-platform\node_modules\.pnpm\@eggjs+router@2.2.0\node_modules\@eggjs\router\lib\utils.js:17:21)
+    at wrappedController (E:\Projects\ai-platform\node_modules\.pnpm\@eggjs+router@2.2.0\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\Projects\ai-platform\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+2026-03-12 14:42:26,679 ERROR 29096 nodejs.ClusterClientNoResponseError: client no response in 89843ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\Projects\ai-platform\node_modules\.pnpm\cluster-client@3.7.0\node_modules\cluster-client\lib\leader.js:79:25)
+    at listOnTimeout (node:internal/timers:585:17)
+    at processTimers (node:internal/timers:521:7)
+name: "ClusterClientNoResponseError"
+pid: 29096
+hostname: DESKTOP-A6S46PV
+
+2026-03-12 15:04:13,561 ERROR 29096 nodejs.ClusterClientNoResponseError: client no response in 946779ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\Projects\ai-platform\node_modules\.pnpm\cluster-client@3.7.0\node_modules\cluster-client\lib\leader.js:79:25)
+    at listOnTimeout (node:internal/timers:585:17)
+    at processTimers (node:internal/timers:521:7)
+name: "ClusterClientNoResponseError"
+pid: 29096
+hostname: DESKTOP-A6S46PV
+
+2026-03-12 15:10:56,159 ERROR 29096 nodejs.ClusterClientNoResponseError: client no response in 82469ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\Projects\ai-platform\node_modules\.pnpm\cluster-client@3.7.0\node_modules\cluster-client\lib\leader.js:79:25)
+    at listOnTimeout (node:internal/timers:585:17)
+    at processTimers (node:internal/timers:521:7)
+name: "ClusterClientNoResponseError"
+pid: 29096
+hostname: DESKTOP-A6S46PV
+
+2026-03-12 15:40:16,961 ERROR 29096 nodejs.ClusterClientNoResponseError: client no response in 67455ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\Projects\ai-platform\node_modules\.pnpm\cluster-client@3.7.0\node_modules\cluster-client\lib\leader.js:79:25)
+    at listOnTimeout (node:internal/timers:585:17)
+    at processTimers (node:internal/timers:521:7)
+name: "ClusterClientNoResponseError"
+pid: 29096
+hostname: DESKTOP-A6S46PV
+
+2026-03-12 18:53:37,501 ERROR 29096 nodejs.ClusterClientNoResponseError: client no response in 4478596ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\Projects\ai-platform\node_modules\.pnpm\cluster-client@3.7.0\node_modules\cluster-client\lib\leader.js:79:25)
+    at listOnTimeout (node:internal/timers:585:17)
+    at processTimers (node:internal/timers:521:7)
+name: "ClusterClientNoResponseError"
+pid: 29096
+hostname: DESKTOP-A6S46PV
+
+2026-03-12 19:10:28,215 ERROR 29096 nodejs.ClusterClientNoResponseError: client no response in 950656ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\Projects\ai-platform\node_modules\.pnpm\cluster-client@3.7.0\node_modules\cluster-client\lib\leader.js:79:25)
+    at listOnTimeout (node:internal/timers:585:17)
+    at processTimers (node:internal/timers:521:7)
+name: "ClusterClientNoResponseError"
+pid: 29096
+hostname: DESKTOP-A6S46PV
+
+2026-03-12 20:18:16,904 ERROR 29096 nodejs.ClusterClientNoResponseError: client no response in 727421ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\Projects\ai-platform\node_modules\.pnpm\cluster-client@3.7.0\node_modules\cluster-client\lib\leader.js:79:25)
+    at listOnTimeout (node:internal/timers:585:17)
+    at processTimers (node:internal/timers:521:7)
+name: "ClusterClientNoResponseError"
+pid: 29096
+hostname: DESKTOP-A6S46PV
+
+2026-03-13 03:09:21,996 ERROR 29096 nodejs.ClusterClientNoResponseError: client no response in 23104150ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\Projects\ai-platform\node_modules\.pnpm\cluster-client@3.7.0\node_modules\cluster-client\lib\leader.js:79:25)
+    at listOnTimeout (node:internal/timers:585:17)
+    at processTimers (node:internal/timers:521:7)
+name: "ClusterClientNoResponseError"
+pid: 29096
+hostname: DESKTOP-A6S46PV
+

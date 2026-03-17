@@ -21,7 +21,7 @@
     "mysql2": "^3.9.0",
     "reflect-metadata": "^0.2.0",
     "typeorm": "^0.3.20",
-    "shared": "workspace:*"
+    "shared": "file:../shared"
   },
   "devDependencies": {
     "@eggjs/tsconfig": "^1.3.2",

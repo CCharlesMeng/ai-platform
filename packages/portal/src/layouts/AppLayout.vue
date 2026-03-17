@@ -30,33 +30,35 @@
 
         <!-- 右侧操作区 -->
         <div class="nav-right">
-          <!-- 搜索框 -->
-          <div class="search-box">
-            <svg class="search-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
-            </svg>
-            <input class="search-input" type="text" placeholder="搜索..." />
-          </div>
-
-          <!-- 通知铃 -->
-          <button class="notify-btn" aria-label="通知">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/>
-            </svg>
-            <span class="notify-dot" />
-          </button>
-
-          <div class="divider" />
 
           <!-- 用户信息 -->
           <div class="user-info">
-            <div class="user-text">
-              <p class="user-name">{{ authStore.user?.name || 'Creator_Alpha' }}</p>
-              <p class="user-level">Lv.1 围观者</p>
-            </div>
-            <div class="user-avatar">
-              {{ (authStore.user?.name || 'C').charAt(0) }}
-            </div>
+            <!-- 已登录：显示姓名 + 头像 -->
+            <template v-if="authStore.displayUser">
+              <div class="user-text">
+                <p class="user-name">{{ authStore.displayUser.name || '用户' }}</p>
+                <p class="user-level">Lv.1 围观者</p>
+              </div>
+              <!-- 有头像 URL 时显示图片，否则显示首字母 -->
+              <img
+                v-if="authStore.displayUser.avatar"
+                :src="authStore.displayUser.avatar"
+                :alt="authStore.displayUser.name || '用户头像'"
+                class="user-avatar user-avatar--img"
+              />
+              <div v-else class="user-avatar">
+                {{ (authStore.displayUser.name || '?').charAt(0).toUpperCase() }}
+              </div>
+            </template>
+
+            <!-- 未登录：占位头像 -->
+            <template v-else>
+              <div class="user-text">
+                <p class="user-name user-name--placeholder">未登录</p>
+                <p class="user-level">--</p>
+              </div>
+              <div class="user-avatar user-avatar--placeholder">?</div>
+            </template>
           </div>
         </div>
 
@@ -208,78 +210,6 @@ const authStore = useAuthStore()
   flex-shrink: 0;
 }
 
-/* 搜索框 */
-.search-box {
-  display: none;
-  align-items: center;
-  gap: 0.4rem;
-  background: #F0F4F7;
-  border: 1px solid #D5DEE5;
-  border-radius: 0.5rem;
-  padding: 0.375rem 0.75rem;
-  width: 200px;
-}
-
-@media (min-width: 768px) {
-  .search-box { display: flex; }
-}
-
-.search-icon {
-  color: #5D6D7E;
-  flex-shrink: 0;
-}
-
-.search-input {
-  background: transparent;
-  border: none;
-  outline: none;
-  font-size: 0.85rem;
-  color: #2C3E50;
-  width: 100%;
-}
-
-.search-input::placeholder {
-  color: rgba(93, 109, 126, 0.6);
-}
-
-/* 通知铃 */
-.notify-btn {
-  position: relative;
-  width: 2.25rem;
-  height: 2.25rem;
-  border: none;
-  background: transparent;
-  border-radius: 0.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #5D6D7E;
-  cursor: pointer;
-  transition: background-color 0.15s;
-}
-
-.notify-btn:hover {
-  background-color: #E8EDF0;
-}
-
-.notify-dot {
-  position: absolute;
-  top: 0.5rem;
-  right: 0.5rem;
-  width: 0.45rem;
-  height: 0.45rem;
-  background: #ef4444;
-  border-radius: 50%;
-  border: 2px solid #ffffff;
-}
-
-/* 分割线 */
-.divider {
-  width: 1px;
-  height: 1.75rem;
-  background: #D5DEE5;
-}
-
 /* 用户信息 */
 .user-info {
   display: flex;
@@ -325,6 +255,19 @@ const authStore = useAuthStore()
   font-weight: 700;
   color: #2C3E50;
   flex-shrink: 0;
+}
+
+.user-avatar--img {
+  object-fit: cover;
+  background: transparent;
+}
+
+.user-avatar--placeholder {
+  opacity: 0.45;
+}
+
+.user-name--placeholder {
+  opacity: 0.5;
 }
 
 /* ── 页脚 ────────────────────────────────────── */

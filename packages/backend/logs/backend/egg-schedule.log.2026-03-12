@@ -1,0 +1,102 @@
+2026-03-12 11:49:22,909 INFO 11964 [Timer] E:\Projects\ai-platform\node_modules\.pnpm\egg-multipart@3.5.0\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 60037093ms at 2026-03-13 04:30:00.002
+2026-03-12 11:49:22,909 INFO 11964 [Timer] E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 43837091ms at 2026-03-13 00:00:00.000
+2026-03-12 11:49:22,909 INFO 11964 [Timer] E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 43838091ms at 2026-03-13 00:00:01.000
+2026-03-12 11:49:22,599 INFO 16952 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-multipart@3.5.0\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2026-03-12 11:49:22,599 INFO 16952 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\clean_log.js
+2026-03-12 11:49:22,599 INFO 16952 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2026-03-12 11:51:03,829 INFO 16380 [Timer] E:\Projects\ai-platform\node_modules\.pnpm\egg-multipart@3.5.0\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 59936173ms at 2026-03-13 04:30:00.002
+2026-03-12 11:51:03,830 INFO 16380 [Timer] E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 43736171ms at 2026-03-13 00:00:00.001
+2026-03-12 11:51:03,830 INFO 16380 [Timer] E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 43737170ms at 2026-03-13 00:00:01.000
+2026-03-12 11:51:03,533 INFO 26380 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-multipart@3.5.0\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2026-03-12 11:51:03,533 INFO 26380 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\clean_log.js
+2026-03-12 11:51:03,533 INFO 26380 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2026-03-12 11:52:28,404 INFO 21972 [Timer] E:\Projects\ai-platform\node_modules\.pnpm\egg-multipart@3.5.0\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 59851597ms at 2026-03-13 04:30:00.001
+2026-03-12 11:52:28,404 INFO 21972 [Timer] E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 43651596ms at 2026-03-13 00:00:00.000
+2026-03-12 11:52:28,405 INFO 21972 [Timer] E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 43652595ms at 2026-03-13 00:00:01.000
+2026-03-12 11:52:28,106 INFO 16136 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-multipart@3.5.0\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2026-03-12 11:52:28,106 INFO 16136 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\clean_log.js
+2026-03-12 11:52:28,106 INFO 16136 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2026-03-12 11:54:03,340 INFO 18316 [Timer] E:\Projects\ai-platform\node_modules\.pnpm\egg-multipart@3.5.0\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 59756661ms at 2026-03-13 04:30:00.001
+2026-03-12 11:54:03,341 INFO 18316 [Timer] E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 43556660ms at 2026-03-13 00:00:00.001
+2026-03-12 11:54:03,341 INFO 18316 [Timer] E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 43557659ms at 2026-03-13 00:00:01.000
+2026-03-12 11:54:03,063 INFO 17344 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-multipart@3.5.0\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2026-03-12 11:54:03,063 INFO 17344 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\clean_log.js
+2026-03-12 11:54:03,063 INFO 17344 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2026-03-12 14:02:22,461 INFO 29676 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-multipart@3.5.0\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2026-03-12 14:02:22,461 INFO 29676 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\clean_log.js
+2026-03-12 14:02:22,461 INFO 29676 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2026-03-12 14:02:22,461 INFO 29160 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-multipart@3.5.0\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2026-03-12 14:02:22,461 INFO 29160 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\clean_log.js
+2026-03-12 14:02:22,461 INFO 29160 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2026-03-12 14:02:23,723 INFO 28660 [Timer] E:\Projects\ai-platform\node_modules\.pnpm\egg-multipart@3.5.0\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 52056283ms at 2026-03-13 04:30:00.006
+2026-03-12 14:02:23,724 INFO 28660 [Timer] E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 35856277ms at 2026-03-13 00:00:00.001
+2026-03-12 14:02:23,724 INFO 28660 [Timer] E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 35857276ms at 2026-03-13 00:00:01.000
+2026-03-12 14:04:55,598 INFO 6284 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-multipart@3.5.0\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2026-03-12 14:04:55,598 INFO 6284 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\clean_log.js
+2026-03-12 14:04:55,598 INFO 6284 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2026-03-12 14:04:56,083 INFO 29096 [Timer] E:\Projects\ai-platform\node_modules\.pnpm\egg-multipart@3.5.0\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 51903920ms at 2026-03-13 04:30:00.003
+2026-03-12 14:04:56,084 INFO 29096 [Timer] E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 35703917ms at 2026-03-13 00:00:00.000
+2026-03-12 14:04:56,084 INFO 29096 [Timer] E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 35704916ms at 2026-03-13 00:00:01.000
+2026-03-12 15:14:28,689 INFO 26120 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-multipart@3.5.0\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2026-03-12 15:14:28,689 INFO 26120 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\clean_log.js
+2026-03-12 15:14:28,689 INFO 26120 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2026-03-12 15:53:51,942 INFO 21300 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-multipart@3.5.0\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2026-03-12 15:53:51,942 INFO 21300 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\clean_log.js
+2026-03-12 15:53:51,942 INFO 21300 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2026-03-12 15:54:15,012 INFO 2268 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-multipart@3.5.0\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2026-03-12 15:54:15,012 INFO 2268 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\clean_log.js
+2026-03-12 15:54:15,012 INFO 2268 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2026-03-12 15:54:26,685 INFO 26072 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-multipart@3.5.0\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2026-03-12 15:54:26,685 INFO 26072 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\clean_log.js
+2026-03-12 15:54:26,685 INFO 26072 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2026-03-12 15:54:33,772 INFO 27024 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-multipart@3.5.0\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2026-03-12 15:54:33,772 INFO 27024 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\clean_log.js
+2026-03-12 15:54:33,772 INFO 27024 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2026-03-12 15:54:39,824 INFO 29956 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-multipart@3.5.0\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2026-03-12 15:54:39,824 INFO 29956 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\clean_log.js
+2026-03-12 15:54:39,824 INFO 29956 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2026-03-12 15:54:45,785 INFO 21140 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-multipart@3.5.0\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2026-03-12 15:54:45,785 INFO 21140 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\clean_log.js
+2026-03-12 15:54:45,785 INFO 21140 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2026-03-12 16:03:13,649 INFO 27720 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-multipart@3.5.0\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2026-03-12 16:03:13,649 INFO 27720 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\clean_log.js
+2026-03-12 16:03:13,649 INFO 27720 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2026-03-12 16:03:17,852 INFO 26580 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-multipart@3.5.0\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2026-03-12 16:03:17,852 INFO 26580 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\clean_log.js
+2026-03-12 16:03:17,852 INFO 26580 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2026-03-12 16:03:40,286 INFO 25324 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-multipart@3.5.0\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2026-03-12 16:03:40,286 INFO 25324 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\clean_log.js
+2026-03-12 16:03:40,286 INFO 25324 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2026-03-12 16:03:48,517 INFO 17612 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-multipart@3.5.0\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2026-03-12 16:03:48,517 INFO 17612 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\clean_log.js
+2026-03-12 16:03:48,517 INFO 17612 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2026-03-12 16:03:55,336 INFO 27776 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-multipart@3.5.0\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2026-03-12 16:03:55,336 INFO 27776 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\clean_log.js
+2026-03-12 16:03:55,336 INFO 27776 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2026-03-12 16:03:59,969 INFO 9076 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-multipart@3.5.0\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2026-03-12 16:03:59,969 INFO 9076 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\clean_log.js
+2026-03-12 16:03:59,969 INFO 9076 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2026-03-12 16:04:08,958 INFO 17724 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-multipart@3.5.0\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2026-03-12 16:04:08,958 INFO 17724 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\clean_log.js
+2026-03-12 16:04:08,958 INFO 17724 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2026-03-12 16:04:15,814 INFO 6300 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-multipart@3.5.0\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2026-03-12 16:04:15,814 INFO 6300 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\clean_log.js
+2026-03-12 16:04:15,814 INFO 6300 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2026-03-12 16:04:20,646 INFO 8320 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-multipart@3.5.0\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2026-03-12 16:04:20,646 INFO 8320 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\clean_log.js
+2026-03-12 16:04:20,646 INFO 8320 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2026-03-12 16:04:27,612 INFO 30280 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-multipart@3.5.0\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2026-03-12 16:04:27,612 INFO 30280 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\clean_log.js
+2026-03-12 16:04:27,612 INFO 30280 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2026-03-12 16:14:52,018 INFO 28136 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-multipart@3.5.0\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2026-03-12 16:14:52,018 INFO 28136 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\clean_log.js
+2026-03-12 16:14:52,018 INFO 28136 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2026-03-12 17:22:18,183 INFO 23332 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-multipart@3.5.0\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2026-03-12 17:22:18,183 INFO 23332 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\clean_log.js
+2026-03-12 17:22:18,183 INFO 23332 [egg-schedule]: register schedule E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2026-03-13 03:09:21,797 INFO 23332 [Job#17733425617331182963562440001] E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2026-03-13 03:09:22,012 INFO 23332 [Job#17733425617331182963562440001] E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 174ms. 
+2026-03-13 03:09:22,027 INFO 23332 [Job#17733425619461182965523150001] E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2026-03-13 03:09:22,246 INFO 23332 [Job#17733425619461182965523150001] E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 219ms. 
+2026-03-13 03:09:21,946 INFO 29096 [Timer] E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 75038216ms at 2026-03-14 00:00:00.162
+2026-03-13 03:09:21,979 INFO 29096 [Timer] E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 75039054ms at 2026-03-14 00:00:01.033

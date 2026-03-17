@@ -1,0 +1,87 @@
+2026-03-12 11:49:36,263 ERROR 16952 [-/::1/-/11ms GET /api/banners] [ErrorHandler] EntityMetadataNotFoundError: No metadata for "BannerEntity" was found.
+    at DataSource.getMetadata (E:\Projects\ai-platform\node_modules\.pnpm\typeorm@0.3.28_mysql2@3.19._8cb7a6828a05789f2ee0097bb279a177\node_modules\src\data-source\DataSource.ts:451:30)
+    at Repository.get metadata [as metadata] (E:\Projects\ai-platform\node_modules\.pnpm\typeorm@0.3.28_mysql2@3.19._8cb7a6828a05789f2ee0097bb279a177\node_modules\src\repository\Repository.ts:54:40)
+    at Repository.find (E:\Projects\ai-platform\node_modules\.pnpm\typeorm@0.3.28_mysql2@3.19._8cb7a6828a05789f2ee0097bb279a177\node_modules\src\repository\Repository.ts:573:39)
+    at BannersService.findActive (E:\Projects\ai-platform\packages\backend\app\service\banners.ts:26:34)
+    at BannersController.index (E:\Projects\ai-platform\packages\backend\app\controller\banners.ts:10:38)
+    at Object.callFn (E:\Projects\ai-platform\node_modules\.pnpm\egg-core@5.5.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\Projects\ai-platform\node_modules\.pnpm\egg-core@5.5.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\Projects\ai-platform\node_modules\.pnpm\@eggjs+router@2.2.0\node_modules\@eggjs\router\lib\utils.js:17:21)
+    at wrappedController (E:\Projects\ai-platform\node_modules\.pnpm\@eggjs+router@2.2.0\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\Projects\ai-platform\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+2026-03-12 11:53:09,171 ERROR 16136 [-/127.0.0.1/-/5ms GET /api/banners] [ErrorHandler] EntityMetadataNotFoundError: No metadata for "BannerEntity" was found.
+    at DataSource.getMetadata (E:\Projects\ai-platform\node_modules\.pnpm\typeorm@0.3.28_mysql2@3.19._8cb7a6828a05789f2ee0097bb279a177\node_modules\src\data-source\DataSource.ts:451:30)
+    at Repository.get metadata [as metadata] (E:\Projects\ai-platform\node_modules\.pnpm\typeorm@0.3.28_mysql2@3.19._8cb7a6828a05789f2ee0097bb279a177\node_modules\src\repository\Repository.ts:54:40)
+    at Repository.find (E:\Projects\ai-platform\node_modules\.pnpm\typeorm@0.3.28_mysql2@3.19._8cb7a6828a05789f2ee0097bb279a177\node_modules\src\repository\Repository.ts:573:39)
+    at BannersService.findActive (E:\Projects\ai-platform\packages\backend\app\service\banners.ts:26:34)
+    at BannersController.index (E:\Projects\ai-platform\packages\backend\app\controller\banners.ts:10:38)
+    at Object.callFn (E:\Projects\ai-platform\node_modules\.pnpm\egg-core@5.5.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\Projects\ai-platform\node_modules\.pnpm\egg-core@5.5.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\Projects\ai-platform\node_modules\.pnpm\@eggjs+router@2.2.0\node_modules\@eggjs\router\lib\utils.js:17:21)
+    at wrappedController (E:\Projects\ai-platform\node_modules\.pnpm\@eggjs+router@2.2.0\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\Projects\ai-platform\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+2026-03-12 11:53:11,436 ERROR 16136 [-/::1/-/2ms GET /api/banners] [ErrorHandler] EntityMetadataNotFoundError: No metadata for "BannerEntity" was found.
+    at DataSource.getMetadata (E:\Projects\ai-platform\node_modules\.pnpm\typeorm@0.3.28_mysql2@3.19._8cb7a6828a05789f2ee0097bb279a177\node_modules\src\data-source\DataSource.ts:451:30)
+    at Repository.get metadata [as metadata] (E:\Projects\ai-platform\node_modules\.pnpm\typeorm@0.3.28_mysql2@3.19._8cb7a6828a05789f2ee0097bb279a177\node_modules\src\repository\Repository.ts:54:40)
+    at Repository.find (E:\Projects\ai-platform\node_modules\.pnpm\typeorm@0.3.28_mysql2@3.19._8cb7a6828a05789f2ee0097bb279a177\node_modules\src\repository\Repository.ts:573:39)
+    at BannersService.findActive (E:\Projects\ai-platform\packages\backend\app\service\banners.ts:26:34)
+    at BannersController.index (E:\Projects\ai-platform\packages\backend\app\controller\banners.ts:10:38)
+    at Object.callFn (E:\Projects\ai-platform\node_modules\.pnpm\egg-core@5.5.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\Projects\ai-platform\node_modules\.pnpm\egg-core@5.5.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\Projects\ai-platform\node_modules\.pnpm\@eggjs+router@2.2.0\node_modules\@eggjs\router\lib\utils.js:17:21)
+    at wrappedController (E:\Projects\ai-platform\node_modules\.pnpm\@eggjs+router@2.2.0\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\Projects\ai-platform\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+2026-03-12 11:54:47,132 ERROR 17344 [-/127.0.0.1/-/5ms GET /api/banners] [ErrorHandler] EntityMetadataNotFoundError: No metadata for "BannerEntity" was found.
+    at DataSource.getMetadata (E:\Projects\ai-platform\node_modules\.pnpm\typeorm@0.3.28_mysql2@3.19._8cb7a6828a05789f2ee0097bb279a177\node_modules\src\data-source\DataSource.ts:451:30)
+    at Repository.get metadata [as metadata] (E:\Projects\ai-platform\node_modules\.pnpm\typeorm@0.3.28_mysql2@3.19._8cb7a6828a05789f2ee0097bb279a177\node_modules\src\repository\Repository.ts:54:40)
+    at Repository.find (E:\Projects\ai-platform\node_modules\.pnpm\typeorm@0.3.28_mysql2@3.19._8cb7a6828a05789f2ee0097bb279a177\node_modules\src\repository\Repository.ts:573:39)
+    at BannersService.findActive (E:\Projects\ai-platform\packages\backend\app\service\banners.ts:26:34)
+    at BannersController.index (E:\Projects\ai-platform\packages\backend\app\controller\banners.ts:10:38)
+    at Object.callFn (E:\Projects\ai-platform\node_modules\.pnpm\egg-core@5.5.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\Projects\ai-platform\node_modules\.pnpm\egg-core@5.5.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\Projects\ai-platform\node_modules\.pnpm\@eggjs+router@2.2.0\node_modules\@eggjs\router\lib\utils.js:17:21)
+    at wrappedController (E:\Projects\ai-platform\node_modules\.pnpm\@eggjs+router@2.2.0\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\Projects\ai-platform\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+2026-03-12 14:02:23,211 INFO 29676 [TypeORM] 正在连接数据库...
+2026-03-12 14:02:23,211 INFO 29160 [TypeORM] 正在连接数据库...
+2026-03-12 14:02:23,702 INFO 29160 [TypeORM] 数据库连接成功
+2026-03-12 14:04:55,928 INFO 6284 [TypeORM] 正在连接数据库...
+2026-03-12 14:04:56,071 INFO 6284 [TypeORM] 数据库连接成功
+2026-03-12 15:14:28,955 INFO 26120 [TypeORM] 正在连接数据库...
+2026-03-12 15:14:29,094 INFO 26120 [TypeORM] 数据库连接成功
+2026-03-12 15:53:52,241 INFO 21300 [TypeORM] 正在连接数据库...
+2026-03-12 15:53:52,450 INFO 21300 [TypeORM] 数据库连接成功
+2026-03-12 15:54:15,284 INFO 2268 [TypeORM] 正在连接数据库...
+2026-03-12 15:54:15,512 INFO 2268 [TypeORM] 数据库连接成功
+2026-03-12 15:54:27,055 INFO 26072 [TypeORM] 正在连接数据库...
+2026-03-12 15:54:27,171 INFO 26072 [TypeORM] 数据库连接成功
+2026-03-12 15:54:34,098 INFO 27024 [TypeORM] 正在连接数据库...
+2026-03-12 15:54:34,194 INFO 27024 [TypeORM] 数据库连接成功
+2026-03-12 15:54:40,166 INFO 29956 [TypeORM] 正在连接数据库...
+2026-03-12 15:54:40,289 INFO 29956 [TypeORM] 数据库连接成功
+2026-03-12 15:54:46,117 INFO 21140 [TypeORM] 正在连接数据库...
+2026-03-12 15:54:46,222 INFO 21140 [TypeORM] 数据库连接成功
+2026-03-12 16:03:14,008 INFO 27720 [TypeORM] 正在连接数据库...
+2026-03-12 16:03:14,116 INFO 27720 [TypeORM] 数据库连接成功
+2026-03-12 16:03:18,160 INFO 26580 [TypeORM] 正在连接数据库...
+2026-03-12 16:03:18,268 INFO 26580 [TypeORM] 数据库连接成功
+2026-03-12 16:03:40,599 INFO 25324 [TypeORM] 正在连接数据库...
+2026-03-12 16:03:40,739 INFO 25324 [TypeORM] 数据库连接成功
+2026-03-12 16:03:48,838 INFO 17612 [TypeORM] 正在连接数据库...
+2026-03-12 16:03:48,942 INFO 17612 [TypeORM] 数据库连接成功
+2026-03-12 16:03:55,819 INFO 27776 [TypeORM] 正在连接数据库...
+2026-03-12 16:03:55,942 INFO 27776 [TypeORM] 数据库连接成功
+2026-03-12 16:04:00,413 INFO 9076 [TypeORM] 正在连接数据库...
+2026-03-12 16:04:00,542 INFO 9076 [TypeORM] 数据库连接成功
+2026-03-12 16:04:09,423 INFO 17724 [TypeORM] 正在连接数据库...
+2026-03-12 16:04:09,546 INFO 17724 [TypeORM] 数据库连接成功
+2026-03-12 16:04:16,337 INFO 6300 [TypeORM] 正在连接数据库...
+2026-03-12 16:04:16,452 INFO 6300 [TypeORM] 数据库连接成功
+2026-03-12 16:04:21,009 INFO 8320 [TypeORM] 正在连接数据库...
+2026-03-12 16:04:21,181 INFO 8320 [TypeORM] 数据库连接成功
+2026-03-12 16:04:27,947 INFO 30280 [TypeORM] 正在连接数据库...
+2026-03-12 16:04:28,034 INFO 30280 [TypeORM] 数据库连接成功
+2026-03-12 16:14:52,378 INFO 28136 [TypeORM] 正在连接数据库...
+2026-03-12 16:14:52,487 INFO 28136 [TypeORM] 数据库连接成功
+2026-03-12 17:22:18,493 INFO 23332 [TypeORM] 正在连接数据库...
+2026-03-12 17:22:18,661 INFO 23332 [TypeORM] 数据库连接成功

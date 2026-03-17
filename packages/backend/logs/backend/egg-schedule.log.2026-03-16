@@ -1,0 +1,8 @@
+2026-03-17 09:07:33,237 INFO 29096 [Timer] E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 53547011ms at 2026-03-18 00:00:00.202
+2026-03-17 09:07:33,389 INFO 29096 [Timer] E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 53547762ms at 2026-03-18 00:00:01.151
+2026-03-17 09:07:33,452 INFO 29096 [Timer] E:\Projects\ai-platform\node_modules\.pnpm\egg-multipart@3.5.0\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 69746578ms at 2026-03-18 04:30:00.030
+2026-03-17 09:07:33,097 INFO 32004 [Job#17737096529554853984325886003] E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2026-03-17 09:07:33,246 INFO 32004 [Job#17737096532384853987154753003] E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2026-03-17 09:07:33,342 INFO 32004 [Job#17737096529554853984325886003] E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 244ms. 
+2026-03-17 09:07:33,441 INFO 32004 [Job#17737096533894853988666820003] E:\Projects\ai-platform\node_modules\.pnpm\egg-multipart@3.5.0\node_modules\egg-multipart\app\schedule\clean_tmpdir.js executing by app
+2026-03-17 09:07:33,864 INFO 32004 [Job#17737096532384853987154753003] E:\Projects\ai-platform\node_modules\.pnpm\egg-logrotator@3.2.0\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 618ms. 

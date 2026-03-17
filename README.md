@@ -21,12 +21,12 @@
 
 ```bash
 # 安装依赖
-pnpm install
+npm install
 
 # 启动开发服务器
-pnpm dev:portal    # 员工门户 http://localhost:5173
-pnpm dev:admin     # 管理后台 http://localhost:5174
-pnpm dev:backend   # 后端 API http://localhost:3000
+npm run dev:portal    # 员工门户 http://localhost:5173
+npm run dev:admin     # 管理后台 http://localhost:5174
+npm run dev:backend   # 后端 API http://localhost:3000
 ```
 
 ## 平台功能

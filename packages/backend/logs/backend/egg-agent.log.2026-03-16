@@ -1,0 +1,9 @@
+2026-03-14 07:42:39,104 INFO 29096 [egg-logrotator] agent logger reload: got log-reload message
+2026-03-17 09:07:33,492 ERROR 29096 nodejs.ClusterClientNoResponseError: client no response in 264294174ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\Projects\ai-platform\node_modules\.pnpm\cluster-client@3.7.0\node_modules\cluster-client\lib\leader.js:79:25)
+    at listOnTimeout (node:internal/timers:585:17)
+    at processTimers (node:internal/timers:521:7)
+name: "ClusterClientNoResponseError"
+pid: 29096
+hostname: DESKTOP-A6S46PV
+

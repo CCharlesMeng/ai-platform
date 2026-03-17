@@ -16,7 +16,7 @@
     "axios": "^1.6.0",
     "element-plus": "^2.6.0",
     "@element-plus/icons-vue": "^2.3.0",
-    "shared": "workspace:*"
+    "shared": "file:../shared"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.0",

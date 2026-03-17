@@ -1,0 +1,64 @@
+2026-03-13 06:19:29,477 ERROR 29096 nodejs.ClusterClientNoResponseError: client no response in 11407366ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\Projects\ai-platform\node_modules\.pnpm\cluster-client@3.7.0\node_modules\cluster-client\lib\leader.js:79:25)
+    at listOnTimeout (node:internal/timers:585:17)
+    at processTimers (node:internal/timers:521:7)
+name: "ClusterClientNoResponseError"
+pid: 29096
+hostname: DESKTOP-A6S46PV
+
+2026-03-13 10:02:56,506 ERROR 29096 nodejs.ClusterClientNoResponseError: client no response in 13406834ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\Projects\ai-platform\node_modules\.pnpm\cluster-client@3.7.0\node_modules\cluster-client\lib\leader.js:79:25)
+    at listOnTimeout (node:internal/timers:585:17)
+    at processTimers (node:internal/timers:521:7)
+name: "ClusterClientNoResponseError"
+pid: 29096
+hostname: DESKTOP-A6S46PV
+
+2026-03-13 14:01:26,518 ERROR 29096 nodejs.ClusterClientNoResponseError: client no response in 7037216ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\Projects\ai-platform\node_modules\.pnpm\cluster-client@3.7.0\node_modules\cluster-client\lib\leader.js:79:25)
+    at listOnTimeout (node:internal/timers:585:17)
+    at processTimers (node:internal/timers:521:7)
+name: "ClusterClientNoResponseError"
+pid: 29096
+hostname: DESKTOP-A6S46PV
+
+2026-03-13 14:36:53,144 ERROR 29096 nodejs.ClusterClientNoResponseError: client no response in 2126359ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\Projects\ai-platform\node_modules\.pnpm\cluster-client@3.7.0\node_modules\cluster-client\lib\leader.js:79:25)
+    at listOnTimeout (node:internal/timers:585:17)
+    at processTimers (node:internal/timers:521:7)
+name: "ClusterClientNoResponseError"
+pid: 29096
+hostname: DESKTOP-A6S46PV
+
+2026-03-13 14:44:28,478 ERROR 29096 nodejs.ClusterClientNoResponseError: client no response in 75188ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\Projects\ai-platform\node_modules\.pnpm\cluster-client@3.7.0\node_modules\cluster-client\lib\leader.js:79:25)
+    at listOnTimeout (node:internal/timers:585:17)
+    at processTimers (node:internal/timers:521:7)
+name: "ClusterClientNoResponseError"
+pid: 29096
+hostname: DESKTOP-A6S46PV
+
+2026-03-13 16:50:38,108 ERROR 29096 nodejs.ClusterClientNoResponseError: client no response in 4702299ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\Projects\ai-platform\node_modules\.pnpm\cluster-client@3.7.0\node_modules\cluster-client\lib\leader.js:79:25)
+    at listOnTimeout (node:internal/timers:585:17)
+    at processTimers (node:internal/timers:521:7)
+name: "ClusterClientNoResponseError"
+pid: 29096
+hostname: DESKTOP-A6S46PV
+
+2026-03-13 19:34:00,478 ERROR 29096 nodejs.ClusterClientNoResponseError: client no response in 7268361ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\Projects\ai-platform\node_modules\.pnpm\cluster-client@3.7.0\node_modules\cluster-client\lib\leader.js:79:25)
+    at listOnTimeout (node:internal/timers:585:17)
+    at processTimers (node:internal/timers:521:7)
+name: "ClusterClientNoResponseError"
+pid: 29096
+hostname: DESKTOP-A6S46PV
+
+2026-03-14 07:42:38,763 ERROR 29096 nodejs.ClusterClientNoResponseError: client no response in 43717646ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\Projects\ai-platform\node_modules\.pnpm\cluster-client@3.7.0\node_modules\cluster-client\lib\leader.js:79:25)
+    at listOnTimeout (node:internal/timers:585:17)
+    at processTimers (node:internal/timers:521:7)
+name: "ClusterClientNoResponseError"
+pid: 29096
+hostname: DESKTOP-A6S46PV
+

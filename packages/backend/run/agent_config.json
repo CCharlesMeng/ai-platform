@@ -94,7 +94,7 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "E:\\Projects\\ai-platform\\node_modules\\.pnpm\\egg-onerror@2.4.0\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
+      "templatePath": "E:\\Projects\\ai-platform\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
@@ -107,8 +107,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "E:\\Projects\\ai-platform\\node_modules\\.pnpm\\egg-watcher@3.1.1\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "E:\\Projects\\ai-platform\\node_modules\\.pnpm\\egg-watcher@3.1.1\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "E:\\Projects\\ai-platform\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "E:\\Projects\\ai-platform\\node_modules\\egg-watcher\\lib\\event-sources\\development"
       }
     },
     "customLogger": {
@@ -209,7 +209,7 @@
         "mysql2": "^3.9.0",
         "reflect-metadata": "^0.2.0",
         "typeorm": "^0.3.20",
-        "shared": "workspace:*"
+        "shared": "file:../shared"
       },
       "devDependencies": {
         "@eggjs/tsconfig": "^1.3.2",
@@ -333,7 +333,7 @@
       "host": "localhost",
       "port": 3306,
       "username": "root",
-      "password": "<String len: 15>",
+      "password": "<String len: 0>",
       "database": "ai_platform",
       "synchronize": true,
       "logging": true
@@ -356,8 +356,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "E:\\Projects\\ai-platform\\node_modules\\.pnpm\\egg@3.34.0\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\Projects\\ai-platform\\node_modules\\.pnpm\\egg-onerror@2.4.0\\node_modules\\egg-onerror",
+      "from": "E:\\Projects\\ai-platform\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\Projects\\ai-platform\\node_modules\\egg-onerror",
       "version": "2.4.0"
     },
     "session": {
@@ -367,8 +367,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\Projects\\ai-platform\\node_modules\\.pnpm\\egg@3.34.0\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\Projects\\ai-platform\\node_modules\\.pnpm\\egg-session@3.3.0\\node_modules\\egg-session",
+      "from": "E:\\Projects\\ai-platform\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\Projects\\ai-platform\\node_modules\\egg-session",
       "version": "3.3.0"
     },
     "i18n": {
@@ -378,8 +378,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\Projects\\ai-platform\\node_modules\\.pnpm\\egg@3.34.0\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\Projects\\ai-platform\\node_modules\\.pnpm\\egg-i18n@2.1.1\\node_modules\\egg-i18n",
+      "from": "E:\\Projects\\ai-platform\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\Projects\\ai-platform\\node_modules\\egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -389,8 +389,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\Projects\\ai-platform\\node_modules\\.pnpm\\egg@3.34.0\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\Projects\\ai-platform\\node_modules\\.pnpm\\egg-watcher@3.1.1\\node_modules\\egg-watcher",
+      "from": "E:\\Projects\\ai-platform\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\Projects\\ai-platform\\node_modules\\egg-watcher",
       "version": "3.1.1",
       "dependents": [
         "development"
@@ -405,8 +405,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "E:\\Projects\\ai-platform\\node_modules\\.pnpm\\egg@3.34.0\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\Projects\\ai-platform\\node_modules\\.pnpm\\egg-multipart@3.5.0\\node_modules\\egg-multipart",
+      "from": "E:\\Projects\\ai-platform\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\Projects\\ai-platform\\node_modules\\egg-multipart",
       "version": "3.5.0"
     },
     "security": {
@@ -418,8 +418,8 @@
         "session"
       ],
       "env": [],
-      "from": "E:\\Projects\\ai-platform\\node_modules\\.pnpm\\egg@3.34.0\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\Projects\\ai-platform\\node_modules\\.pnpm\\egg-security@3.7.0\\node_modules\\egg-security",
+      "from": "E:\\Projects\\ai-platform\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\Projects\\ai-platform\\node_modules\\egg-security",
       "version": "3.7.0"
     },
     "development": {
@@ -433,8 +433,8 @@
       "env": [
         "local"
       ],
-      "from": "E:\\Projects\\ai-platform\\node_modules\\.pnpm\\egg@3.34.0\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\Projects\\ai-platform\\node_modules\\.pnpm\\egg-development@3.0.2\\node_modules\\egg-development",
+      "from": "E:\\Projects\\ai-platform\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\Projects\\ai-platform\\node_modules\\egg-development",
       "version": "3.0.2"
     },
     "logrotator": {
@@ -446,8 +446,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\Projects\\ai-platform\\node_modules\\.pnpm\\egg@3.34.0\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\Projects\\ai-platform\\node_modules\\.pnpm\\egg-logrotator@3.2.0\\node_modules\\egg-logrotator",
+      "from": "E:\\Projects\\ai-platform\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\Projects\\ai-platform\\node_modules\\egg-logrotator",
       "version": "3.2.0"
     },
     "schedule": {
@@ -457,8 +457,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\Projects\\ai-platform\\node_modules\\.pnpm\\egg@3.34.0\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\Projects\\ai-platform\\node_modules\\.pnpm\\egg-schedule@4.0.1\\node_modules\\egg-schedule",
+      "from": "E:\\Projects\\ai-platform\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\Projects\\ai-platform\\node_modules\\egg-schedule",
       "version": "4.0.1",
       "dependents": [
         "logrotator"
@@ -471,8 +471,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\Projects\\ai-platform\\node_modules\\.pnpm\\egg@3.34.0\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\Projects\\ai-platform\\node_modules\\.pnpm\\egg-static@2.3.1\\node_modules\\egg-static",
+      "from": "E:\\Projects\\ai-platform\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\Projects\\ai-platform\\node_modules\\egg-static",
       "version": "2.3.1"
     },
     "jsonp": {
@@ -484,8 +484,8 @@
         "security"
       ],
       "env": [],
-      "from": "E:\\Projects\\ai-platform\\node_modules\\.pnpm\\egg@3.34.0\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\Projects\\ai-platform\\node_modules\\.pnpm\\egg-jsonp@2.0.0\\node_modules\\egg-jsonp",
+      "from": "E:\\Projects\\ai-platform\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\Projects\\ai-platform\\node_modules\\egg-jsonp",
       "version": "2.0.0"
     },
     "view": {
@@ -495,8 +495,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\Projects\\ai-platform\\node_modules\\.pnpm\\egg@3.34.0\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\Projects\\ai-platform\\node_modules\\.pnpm\\egg-view@2.1.4\\node_modules\\egg-view",
+      "from": "E:\\Projects\\ai-platform\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\Projects\\ai-platform\\node_modules\\egg-view",
       "version": "2.1.4"
     },
     "cors": {
@@ -507,7 +507,7 @@
       "optionalDependencies": [],
       "env": [],
       "from": "E:\\Projects\\ai-platform\\packages\\backend\\config\\plugin.ts",
-      "path": "E:\\Projects\\ai-platform\\node_modules\\.pnpm\\egg-cors@2.2.4\\node_modules\\egg-cors",
+      "path": "E:\\Projects\\ai-platform\\node_modules\\egg-cors",
       "version": "2.2.4"
     }
   },
@@ -540,7 +540,7 @@
         "mysql2": "^3.9.0",
         "reflect-metadata": "^0.2.0",
         "typeorm": "^0.3.20",
-        "shared": "workspace:*"
+        "shared": "file:../shared"
       },
       "devDependencies": {
         "@eggjs/tsconfig": "^1.3.2",
